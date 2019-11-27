@@ -1,9 +1,5 @@
 #!/bin/bash
 
-shopt -s expand_aliases
-source ~/.bashrc.local
-ddcocp4lab
-
 AKEY=$(aws configure get aws_access_key_id | tr -d '\n' | base64)
 SKEY=$(aws configure get aws_secret_access_key | tr -d '\n' | base64)
 

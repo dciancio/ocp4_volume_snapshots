@@ -3,8 +3,8 @@ kind: ServiceAccount
 metadata:
   name: snapshot-controller-runner
 ---
-kind: ClusterRole
 apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
 metadata:
   name: snapshot-controller-role
 rules:
